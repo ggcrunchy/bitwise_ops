@@ -32,7 +32,7 @@ local frexp = math.frexp
 local max = math.max
 
 -- Modules --
-local divide = require("number_ops.divide")
+local divide = require("tektite_core.number.divide")
 local operators = require("bitwise_ops.operators")
 
 -- Forward declarations --
