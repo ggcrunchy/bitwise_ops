@@ -53,7 +53,7 @@ end
 -- Given a power of 2, the binary logarithm can be extracted as `i = t[power % 37]`.
 --
 -- For 32-bit _power_, one may compute `power % 37` according to one of the methods from
--- @{number_ops.divide.GenerateUnsignedConstants}, with _x_ = _power_, _m_ = **0xDD67C8A7**,
+-- @{tektite_core.number.divide.GenerateUnsignedConstants}, with _x_ = _power_, _m_ = **0xDD67C8A7**,
 -- and _p_ = **37** (generated with _nmax_ = **2^31** and _d_ = **37**).
 -- @ptable[opt] t Table to populate. If absent, one is provided.
 -- @treturn table _t_.
@@ -76,7 +76,7 @@ end
 -- Given a power of 2, the binary logarithm can be extracted as `i = t[power % 59]`.
 --
 -- For 32-bit _power_, one may compute `power % 59` according to one of the methods from
--- @{number_ops.divide.GenerateUnsignedConstants}, with _x_ = _power_, _m_ = **0x22B63CBF**,
+-- @{tektite_core.number.divide.GenerateUnsignedConstants}, with _x_ = _power_, _m_ = **0x22B63CBF**,
 -- and _p_ = **35** (generated with _nmax_ = **2^31** and _d_ = **59**).
 -- @ptable[opt] t Table to populate. If absent, one is provided.
 -- @treturn table _t_.
