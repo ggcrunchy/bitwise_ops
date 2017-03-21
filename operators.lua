@@ -27,7 +27,11 @@
 local floor = math.floor
 
 -- Modules --
-local has_bit, bit = pcall(require, "bit") -- Prefer BitOp
+local has_bit, bit = pcall(require, "plugin.bit") -- Prefer BitOp (try Corona style first)
+
+if not has_bit then
+	has_bit, bit = pcall(require, "bit") -- Normal name
+end
 
 if not has_bit then
 	bit = bit32 -- Fall back to bit32 if available
