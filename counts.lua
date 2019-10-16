@@ -38,7 +38,7 @@ else -- Otherwise, make equivalents for count purposes
 	end
 end
 
--- Export --
+-- Exports --
 local M = {}
 
 --
