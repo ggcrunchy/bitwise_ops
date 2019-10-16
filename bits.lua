@@ -35,6 +35,10 @@ local rshift = operators.rshift
 -- Exports --
 local M = {}
 
+--
+--
+--
+
 --- DOCME
 -- @uint n
 -- @treturn uint N
@@ -47,5 +51,4 @@ function M.Reverse (n)
     return bor(rshift(n, 16), lshift(n, 16))
 end
 
--- Export the module.
 return M

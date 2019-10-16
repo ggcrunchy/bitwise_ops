@@ -40,6 +40,10 @@ end
 -- Exports --
 local M = {}
 
+--
+--
+--
+
 if bit then -- Bit library available
 	M.band = bit.band
 	M.bnot = bit.bnot
@@ -150,5 +154,4 @@ function M.HasBitLib ()
 	return bit ~= nil
 end
 
--- Export the module.
 return M

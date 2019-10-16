@@ -30,6 +30,10 @@ local frexp = math.frexp
 -- Exports --
 local M = {}
 
+--
+--
+--
+
 --- Ceiling of binary logarithm of _n_.
 -- @uint n Integer, &isin; [1, 2^53].
 -- @treturn uint Ceilinged logarithm.
@@ -98,5 +102,4 @@ function M.PopulateMod59 (t)
 	return t
 end
 
--- Export the module.
 return M

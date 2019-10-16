@@ -41,6 +41,10 @@ end
 -- Export --
 local M = {}
 
+--
+--
+--
+
 --- Gets the number of leading zeroes for a given value.
 -- @uint n Value.
 -- @treturn uint Count.
@@ -84,5 +88,4 @@ function M.Pop (n)
 	-- TODO!
 end
 
--- Export the module.
 return M

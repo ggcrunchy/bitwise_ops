@@ -41,6 +41,10 @@ local _IsSet_
 -- Exports --
 local M = {}
 
+--
+--
+--
+
 --- Utility.
 -- @uint var Value to modify.
 -- @uint power Power of 2 to remove from _var_.
@@ -141,8 +145,6 @@ function M.Set (var, power)
 	end
 end
 
--- Cache module members.
 _IsSet_ = M.IsSet
 
--- Export the module.
 return M

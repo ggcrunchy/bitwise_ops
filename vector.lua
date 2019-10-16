@@ -58,6 +58,10 @@ end
 -- Exports --
 local M = {}
 
+--
+--
+--
+
 --- Predicate.
 -- @tparam BitVector vector
 -- @treturn boolean All bits clear?
@@ -440,5 +444,4 @@ function M.SetAll (vector)
 	end
 end
 
--- Export the module.
 return M
