@@ -27,7 +27,7 @@
 local floor = math.floor
 
 -- Modules --
-local has_bit, bit = pcall(require, "plugin.bit") -- Prefer BitOp (try Corona style first)
+local has_bit, bit = pcall(require, "plugin.bit") -- Prefer BitOp (try Solar2D style first)
 
 if not has_bit then
 	has_bit, bit = pcall(require, "bit") -- Normal name
